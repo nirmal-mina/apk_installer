@@ -1,6 +1,5 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:apk_installer/apk_installer.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('apk_installer');

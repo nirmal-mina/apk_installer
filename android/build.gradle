@@ -1,3 +1,5 @@
+package android
+
 group 'com.artxdev.apk_installer'
 version '1.0'
 
@@ -25,10 +27,10 @@ apply plugin: 'com.android.library'
 
 android {
     namespace "com.artxdev.apk_installer"
-    compileSdkVersion 34
+    compileSdkVersion 36
 
     defaultConfig {
-        minSdkVersion 22
+        minSdkVersion 24
     }
 
     dependencies {
